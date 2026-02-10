@@ -1,0 +1,719 @@
+
+/*===================== ALL STYLE =====================*/
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.width70{
+    width: 70%;
+  
+}
+
+.width20{
+    width: 30%;
+}
+
+.m-top{
+    padding-top: 25px;
+}
+
+.header-text{
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 33px;
+    line-height: 56px;
+    letter-spacing: 0%;
+    padding-bottom: 4px;
+}
+
+.header-text1{
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: Italic;
+    font-size: 18px;
+    line-height: 37.14px;
+    letter-spacing: 0%;
+    padding-bottom: 4px;
+}
+
+.header-text2{
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 27.86px;
+    letter-spacing: 0%;
+    padding-top: 22px;
+    padding-bottom: 16px;
+}
+
+.header-desc {
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 30.6px;
+    letter-spacing: 0%;
+    color: #525252;
+}
+
+.other-text {
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 16px;
+    line-height: 27.2px;
+    letter-spacing: 0%;
+    text-align: right;
+    margin-top: 24px;
+    color: #54595F;
+}
+
+.block-link {
+    display: inline-block;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: 0;
+    text-align: center;
+    color: #000000;
+    text-decoration: none;
+    padding: 3px 4px;
+    border-bottom: 1px solid #000000;   /* button border */
+    transition: 0.3s ease;
+}
+
+.block-link:hover {
+  background: #000000;
+  color: #ffffff;
+}
+
+.block-flex{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 40px;
+}
+
+.block-content-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    margin-left: 48px;
+}
+
+.block-content-left  p, .block-content-left  h5 {
+    text-align: right;
+}
+
+.block-content-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 48px;
+    align-items: flex-start;
+}
+
+.block-content-right  p, .block-content-right  h5 {
+    text-align: left;
+}
+
+.block-image img {
+    width: 100%;
+    height: 100%;
+}
+
+.features-and-gallery, .cloe-section, .pelican-section, .alada-section,
+.alba-section, .batea-section, .product-section, .product-desc-section,
+.values-section, .brand-section, .footer {
+    background-color:#F7F7F7 ;
+}
+
+.slider {
+  max-width: none;
+  max-width: max-content;
+  max-width: min-content;
+  max-width: fit-content;
+  max-width: fit-content(20em);
+  max-width: stretch;
+  position: relative;
+  overflow: hidden;
+}
+
+.slider-margin{
+    margin: 0 150px;
+}
+
+.slides {
+  display: flex;
+  transition: 0.5s ease;
+}
+
+.slider-margin-one {
+    margin: 0 180px;
+}
+
+.slider-margin-two{
+     margin: 0 80px;
+}
+
+.slider-margin-two {
+    padding-top: 82px;
+}
+
+.slide {
+  min-width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 20px;
+}
+
+.slide-item{
+    width: 35%;
+    height: 100%;
+    /* overflow: hidden; */
+}
+
+.slide img {
+  width: 100%;
+  /* max-width: 500px; */
+  height: 100%;
+  border-radius: 8px;
+  /* object-fit: cover; */
+}
+
+
+
+/* Dots */
+.dots {
+  text-align: center;
+  height: 20px;
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dot {
+  height: 13px;
+  width: 13px;
+  background: #000;
+  display: inline-block;
+  margin: 4px;
+  border-radius: 2px;
+  opacity: 0.4;
+  transition: .3s;
+  cursor: pointer;
+}
+
+.dot.active {
+  width: 20px;
+  height: 20px;
+  opacity: 1;
+}
+
+.dot.active-next{
+    width: 16px;
+    height: 16px;
+    opacity: 1;
+}
+/*====================================================*/
+
+/*===================== Header style navbar and logo =====================*/
+.header {
+    display: flex;   
+    align-items: center;
+    justify-content: center;
+    margin: 10px 13px;
+    position: relative;
+}
+
+.navbar-block {
+    position: absolute;
+    left: 0;
+    margin: auto;
+}
+
+.navbar-block nav a {
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-size: 17px;
+    padding-right: 20px;
+    letter-spacing: 0%;
+    text-decoration: none;
+    color: #000000;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.line {
+    height: 1px;
+    width: 100%;
+    background-color: #F2F2F2;
+    margin-bottom: 35px;
+}
+/*========================================================================*/
+
+/*============================ SECTION STYLE =============================*/
+/*============= Section Home Style =============*/
+.home {
+    background-image:url(../image/home-back.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.home-content {
+    width: 80%;
+} 
+
+.home-content  h1{
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 55.4px;
+    letter-spacing: 0.2px;
+    text-align: center;
+    margin-bottom: 31px;
+}
+
+.home-content a {
+    display: inline-block;
+    padding: 7px 39px;
+    border: 2px solid white;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.3s;
+     font-family: "Cardo", serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 20px;
+    text-align: center;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+  }
+  
+  .home-content a:hover {
+    background-color: #B8935B;
+    border-color: #B8935B;
+    letter-spacing: 1.5px;
+  }
+  
+  .home-content p {
+    font-size: 1.1em;
+  }
+/*==============================================*/
+
+/*============= Features and gallery style =============*/
+.features-block {
+    display: flex;
+    justify-content: space-between;
+    padding: 52px 58px;
+}
+
+.features-block-item {
+    display: flex;
+    align-items: center;
+}
+
+.features-block-item-text{
+    padding-left: 22px;
+}
+
+.features-block-item-text p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 23.8px;
+    letter-spacing: 0.2px;
+}
+
+.gallery-block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery-block .gallery-block-item {
+    width: 25%;
+}
+
+.gallery-block-item img {
+    width: 100%;
+        height: 100%;
+
+} 
+/*======================================================*/
+
+/*============= Cloe Style =============*/
+.cloe-section {
+    padding-top: 114px;
+}
+
+.cloe-btn-shop {
+    margin-top: 66px;
+}
+/*======================================*/
+
+/*============= Pelican =============*/
+.pelican-btn-shop {
+    margin-top: 48px;
+}
+/*===================================*/
+
+/*============= Alada =============*/
+.alada-block-content h6{
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: Italic;
+    font-size: 14px;
+    line-height: 29.71px;
+    letter-spacing: 0%;
+    text-align: right;
+    color: #BC1414;
+    margin-bottom: 20px;
+
+}
+/*=================================*/
+
+/*============= Alba Collection =============*/
+.alba-block-bottom-image {
+    margin-top: 38px;
+}
+/*===========================================*/
+
+/*============= Section Product =============*/
+.product-section {
+    padding-top: 50px;
+}
+
+.product-tittle {
+    font-family: "Cardo", serif;
+    font-weight: 700;
+    font-style: Bold;
+    font-size: 37px;
+    line-height: 39px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-bottom: 21px;
+}
+
+.product-section p{
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    line-height: 33.43px;
+    letter-spacing: 0%;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.slider-product {
+    margin-bottom: 52px;
+}
+
+
+/*===========================================*/
+
+/*============= Product descripition section =============*/
+.product-desc-sectiom {
+    margin-top: 52px;
+}
+
+.slide-two .slide-item{
+   width: 100%;
+}
+
+.slide-two .slide-item p{
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: Italic;
+    font-size: 23px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+
+.slide-product-desc-item p {
+    margin-bottom: 37px;
+    text-align: center;
+}
+
+
+.slide-product-desc-item span {
+  text-align: center;
+  display: block;
+  margin-bottom: 39px;
+   font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 21px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+/*========================================================*/
+
+/*============= Features section =============*/
+.values-block {
+    padding: 43px 0 72px 0;
+    display: flex;
+}
+
+.values-block-color{
+    background-color: #FFFFFF;
+}
+
+.values-block-item {
+    width: 25%;
+    padding: 54px 38px 46px 38px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.values-block-item-desc {
+    margin-top: 30;
+}
+
+.values-block-item-desc h4, .values-block-item-desc p, .values-block-item-desc a{
+    text-align: center;
+}
+
+.values-block-item-desc h4{
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 24px;
+    line-height: 35px;
+    letter-spacing: 0%;
+    text-align: center;
+    margin-top: 29px;
+}
+
+.values-block-item-desc p {
+    margin-top: 15px;
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 18px;
+    leading-trim: NONE;
+    line-height: 27.86px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.values-block-item-desc a {
+    display: block;
+    margin-top: 33px;
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 0%;
+    color: black;
+}
+/*============================================*/
+
+/*============= Brand section =============*/
+.brand-section-block {
+    padding: 62px 10px;
+}
+
+.brand-section-block p {
+  font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 20px;    
+    line-height: 26px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    margin-bottom: 41px;
+
+}
+
+.brand-section-block  img{
+    width: 100%;
+    height: 100%;
+}
+
+/*=========================================*/
+/*========================================================================*/
+
+/*============================ FOOTER STYLE =============================*/
+.footer {
+    background-color: #E9E9E9;
+}
+
+.footer-block {
+    padding: 50px 150px;
+}
+
+.footer-block-top {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 28px;
+}
+
+.footer-block-top-left {
+    display: flex;
+    justify-content:space-between;
+    width: 60%;
+}
+
+.footer-block-top-left-item h3{
+  font-family: "Cardo", serif;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 23px;
+    letter-spacing: 0%;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 43px;
+}
+
+.footer-block-top-left-item ul {
+    text-align: center;
+}
+
+.footer-block-top-left-item ul li {
+    list-style: none;
+    padding-bottom: 13px;
+}
+
+.footer-block-top-left-item ul li  a {
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: Regular;
+    color: black;
+    text-decoration: none;
+    font-size: 17px;
+    leading-trim: NONE;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.footer-block-top-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-block-top-right p {
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    leading-trim: NONE;
+    line-height: 27.86px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.footer-block-top-right button{
+    padding: 5px 41px; 
+    margin-top: 18px;
+    background-color: #FFFFFF;
+    border: 1px solid;
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 15px;
+    leading-trim: NONE;
+    line-height: 15px;
+    letter-spacing: 0%;
+    text-align: center;
+
+}
+
+.footer-top-image-block-one {
+    display: flex;
+    column-gap: 40px;
+    margin-top: 31px;
+}
+
+.footer-top-image-block-two {
+    margin-top: 18px;
+}
+
+.footer-block-bottom {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-block-image-block {
+    display: flex   ;
+}
+
+.footer-margin-top1{
+  margin-top: 10px;
+}
+
+.footer-margin-top2 {
+    margin-top: 30px;
+}
+
+.last-image {
+    margin-left: 15px;
+}
+
+.footer-block-bottom-item p{
+    font-family: "Cardo", serif;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 12px;
+    leading-trim: NONE;
+    line-height: 22.29px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.block-botom-left  {
+    display: flex;
+    align-items: center;
+     column-gap: 5px;
+}
+
+.footer-block-item-block p {
+    font-family: "Cardo", serif;
+    font-family: Cardo;
+    font-weight: 400;
+    font-style: Regular;
+    font-size: 11px;
+    line-height: 22.29px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.footer-block-item-block-line {
+    width: 1px;
+    height: 10px;
+    background-color: black;
+}
+/*=======================================================================*/
+
