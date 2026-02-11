@@ -1,20 +1,129 @@
 @media (min-width: 1025px) and (max-width: 1650px) {
     .slider-margin-one {
-       margin: 0 100px ;
+     margin: 0 100px ;
     }
 
    .footer-block {
-      padding: 50px 100px;
+     padding: 50px 100px;
+   }
+
+   .features-block {
+     padding: 52px 30px;
+     column-gap: 15px;
+   }
+
+   .features-block-item-text {
+     padding-left: 15px;
    }
 }
 
 
-@media (min-width: 860px) and (max-width: 1024px) {
+@media (min-width: 768px) and (max-width: 1024px) {
   .slider-margin-one {
-    margin: 0 65px ;
+     margin: 0 40px;
+  }
+
+  .navbar-block {
+     justify-content: flex-end;
+  }
+
+  .navbar-block nav a {
+     font-size: 18px;
+  }
+
+  .logo {
+     width: 100%;
+     justify-content: flex-start;
+  }
+
+  .line {
+     margin-bottom: 20px;
+  }
+
+  .header {
+     margin: 20px 25px;
+  }
+
+  .navbar-block nav{
+     display: flex;
+     margin-top: 12px;
+     column-gap: 32px;
   }
 
   .footer-block {
-    padding: 50px 70px;
+     padding: 50px 70px;
   }
+
+  .features-block {
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: center;
+     column-gap: 30px;
+     row-gap: 20px;
+  }
+
+  .features-block-item-text {
+     padding-left: 15px;
+  }
+}  
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .home-content h1 {
+     font-size: 28px;
+     line-height: 1.2;  
+ }
+
+ .home {
+    background-position: 5%;
+    height: 90vh;
+ }
+
+ .features-block {
+    flex-direction: column;
+     padding: 35px 20px;
+     align-items: center;
+     row-gap: 20px;
+ }
+
+ .features-block-item {
+    width: 100%;
+    justify-content: center;
+ }
+
+ .features-block-item img {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+    opacity: 0.85;
+
+ }
+
+ .features-block-item-text {
+    width: 30%;
+ }
+
+ .features-block-item-text {
+    padding-left: 14px;
+ }
+
+ .features-block-item-text p {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+ }
+
+ .gallery-block {
+    flex-direction: column;
+ }
+
+ .gallery-block .gallery-block-item {
+   width: 100%;
+ }
 }
+
+@media (min-width: 320px) and (max-width: 480px) {
+     .features-block-item-text {
+    width: 50%;
+ }
+}
+
