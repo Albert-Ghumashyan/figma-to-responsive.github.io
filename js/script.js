@@ -38,7 +38,6 @@ function initSlider(sliderSelector, dotsSelector) {
 initSlider('.slides_one', '.dots-one .dot');
 initSlider('.slides_two', '.dots-two .dot');
 
-
 const menuBtn = document.getElementById("menuBtn");
 const mobileMenu = document.getElementById("mobileMenu");
 
